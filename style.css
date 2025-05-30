@@ -21,6 +21,32 @@ header {
 }
 
 .product {
+  .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  opacity: 0.9;
+}
+
+.site-title h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.site-title p {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+}
+
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 1rem;
