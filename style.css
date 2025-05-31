@@ -7,9 +7,34 @@ body {
 }
 
 header {
-  text-align: center;
-  padding: 2rem 1rem;
+  text-align: left;
   background-color: #f3f3f3;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  opacity: 0.9;
+}
+
+.site-title h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.site-title p {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
 }
 
 .products {
@@ -57,28 +82,3 @@ footer {
   font-size: 0.9rem;
   background-color: #f3f3f3;
 }
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem;
-}
-
-.logo {
-  width: 60px;
-  height: auto;
-  object-fit: contain;
-}
-
-.site-title h1 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-.site-title p {
-  margin: 0;
-  font-size: 1rem;
-  color: #666;
-}
-
