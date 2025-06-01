@@ -11,31 +11,35 @@ header {
   background-color: #f3f3f3;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem 2rem;
-}
+ .logo-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 2rem;
+  }
 
-.logo {
-  width: 60px;
-  height: auto;
-  object-fit: contain;
-  border-radius: 6px;
-  opacity: 0.9;
-}
+  .logo {
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 6px;
+    opacity: 0.95;
+  }
 
-.site-title h1 {
-  margin: 0;
-  font-size: 1.8rem;
-}
+  .site-title.centered {
+    text-align: center;
+    padding: 0 2rem 1rem 2rem;
+  }
 
-.site-title p {
-  margin: 0;
-  font-size: 1rem;
-  color: #666;
-}
+  .site-title.centered h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  .site-title.centered p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #666;
+  }
 
 .products {
   display: flex;
