@@ -12,7 +12,7 @@
   <div class="header-content">
     <img src="loggo.png" alt="Logo Home Essentials" class="logo">
     <div class="site-title">
-      <h1>Home Essentials</h1>
+      <h1><span class="highlight">H</span>ome <span class="highlight">E</span>ssentials</h1>
       <p>Essenziali per la tua casa, con stile e funzionalità.</p>
     </div>
   </div>
@@ -42,8 +42,7 @@
   .site-title {
     flex: 1 1 100%;
     text-align: center;
-    margin-top: 0.5rem;
-    padding-top: 0.5rem;
+    margin-top: -150px
   }
 
   .site-title h1 {
@@ -56,6 +55,10 @@
     font-size: 1rem;
     color: #666;
   }
+
+  .highlight {
+  color: #ffaa5c;
+}
 
   @media (max-width: 768px) {
     .logo {
