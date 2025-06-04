@@ -64,10 +64,15 @@ header {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  background-color: #3E4857;
+  background-color: #333333;
   color: white;
   text-decoration: none;
   border-radius: 5px;
+}
+
+.product a:hover {
+  background-color: #ffaa5c;
+  color: white;
 }
 
 .newsletter {
