@@ -123,6 +123,19 @@ footer {
   .site-title p {
     font-size: 1rem;
   }
+
+  .products {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .product {
+    width: 45%;
+    margin: 1rem;
+  }
+}
 }
 
 
