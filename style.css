@@ -102,36 +102,29 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .header-content {
-    flex-direction: column;
-    align-items: center;
+  .logo {
+    display: none;
+  }
+
+  header {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
   }
 
   .site-title {
-    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
   }
 
-  .products {
-    flex-direction: column;
-    padding: 1rem;
+  .site-title h1 {
+    font-size: 1.6rem;
   }
 
-  .product {
-    width: 90%;
-    max-width: 360px;
-    margin: 0 auto;
-  }
-
-  .prezzo-bottone {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .product a {
-    width: 80%;
-    text-align: center;
+  .site-title p {
+    font-size: 1rem;
   }
 }
+
 
 
 
