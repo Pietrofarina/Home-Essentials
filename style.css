@@ -26,6 +26,10 @@ header {
   opacity: 0.9;
 }
 
+.site-title {
+  flex: 1 1 100%;
+  text-align: center;
+  margin-top: -150px;
 .site-title h1 {
   margin: 0;
   font-size: 1.8rem;
