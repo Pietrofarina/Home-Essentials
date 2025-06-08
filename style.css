@@ -106,18 +106,20 @@ footer {
 }
 
 @media (max-width: 768px) {
+  /* Nasconde il logo */
   .logo {
     display: none;
   }
 
   header {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .site-title {
     padding-top: 0;
     margin-top: 0;
+    text-align: center;
   }
 
   .site-title h1 {
@@ -137,8 +139,9 @@ footer {
   }
 
   .product {
-    width: 48%;
+    width: 45%;
     box-sizing: border-box;
+    margin: 0.5rem 0;
   }
 
   .product img {
@@ -147,26 +150,32 @@ footer {
     object-fit: cover;
     border-radius: 6px;
   }
+  
+  .prezzo {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
 
   .product a {
     display: inline-block;
-    margin-top: 0.5rem;
-    padding: 0.5rem 1rem;
+    width: 100%;
+    padding: 0.5rem;
     background-color: #3E4857;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
-    width: 100%;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s ease;
   }
 
-  .prezzo {
-    display: block;
-    text-align: center;
-    margin-top: 0.5rem;
-    font-weight: bold;
+  .product a:hover {
+    background-color: #ffaa5c;
   }
 }
+
 }
 
 
