@@ -30,7 +30,7 @@ header {
 .site-title {
   flex: 1 1 100%;
   text-align: center;
-  padding-top: 0.5rem;
+  margin-top: -150px;
 }
 
 .site-title h1 {
